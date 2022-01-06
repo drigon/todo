@@ -1,26 +1,14 @@
-## Prerequisite
+## Installation
 
-1. Make sure you have [composer](https://getcomposer.org/download/) installed.
-2. Make sure you have latest stable version of [node](https://nodejs.org/en/download/) installed.
-
-## Prerequisite
-Make sure you have [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed on you machine.
-
-1. `git clone`
-2. cd to the folder
-
-Run the following command in terminal
-
-docker-compose up -d
-
-Run the following commands
-1. sail composer update
-2. sail npm update
-3. sail npm run dev
-4. sail php artisan migrate
+1. git clone https://github.com/drigon/todo todo *folder
+2. cd todo *to the folder
+3. composer update
+4. npm update
+5. npm run watch
+6. php artisan migrate
+7. php artisan serve
 
 open browser and check the following address
-
-http://localhost:8081/
+http://127.0.0.1:8000/
 
 
