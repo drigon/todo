@@ -9,8 +9,8 @@ import {
   QueryClient,
   QueryClientProvider,
 } from 'react-query';
-import { ReactQueryDevtools } from 'react-query/devtools';
-
+//mport { ReactQueryDevtools } from 'react-query/devtools';
+//<ReactQueryDevtools initialIsOpen={false} />
 
 export default function Root() {
 
@@ -31,7 +31,7 @@ export default function Root() {
           </div>
         </div>
       </BrowserRouter>
-      <ReactQueryDevtools initialIsOpen={false} /> 
+     
     </QueryClientProvider>
   );
 }
